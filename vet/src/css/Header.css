@@ -1,0 +1,36 @@
+header{
+    width: 80%;
+    height: 50px;
+    margin: 26px 0 65px 0;
+    
+    --blue: #232D5C;
+    --lightBlue: #E7F4FB;
+    --yellow: #FFDC5C;
+}
+
+.header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-container .header-logo{
+    height: 100%;
+}
+
+.header-container .header-menu ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 60px;
+    align-items: center;
+    font-family: Comfortaa-medium;
+    font-size: 20px;
+    color: var(--blue);
+}
+
+.header-container .header-menu ul li p{
+    cursor: pointer;
+    color: var(--blue);
+}

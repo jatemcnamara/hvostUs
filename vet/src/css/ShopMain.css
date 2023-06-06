@@ -1,0 +1,55 @@
+.content-container{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    --blue: #232D5C;
+    --lightBlue: #E7F4FB;
+    --yellow: #FFDC5C;
+}
+
+.content-container .cart-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 65px;
+}
+
+.content-container .pets-types-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.content-container .pets-types-container .pet-card{
+    width: 31.5%;
+    height: 230px;
+    background-color: var(--lightBlue);
+    padding: 3% 0 3% 3%;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+
+    -webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.25);
+    box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.25);
+}
+
+.content-container .pets-types-container .pet-card p{
+    color: var(--blue);
+    font-size: 20px;
+    font-family: Comfortaa-regular;
+}

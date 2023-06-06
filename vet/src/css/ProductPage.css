@@ -1,0 +1,241 @@
+.product-main-info-container{
+    width: 100%;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-main-info-container .product-img{
+    width: 46%;
+    max-width: 565px;
+    height: 565px;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.25);   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-main-info-container .product-img img{
+    max-height: 65%;
+    max-width: 65%;
+}
+
+.product-main-info{
+    min-width: calc(100% - 600px);
+    width: 50%;
+    height: 565px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.product-main-info .product-main-info-text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.product-main-info .product-main-info-text h1{
+    color: var(--blue);
+    font-size: 40px;
+    font-family: Comfortaa-medium;
+    margin-bottom: 10px;
+}
+
+.product-main-info .product-main-info-text p{
+    color: var(--blue);
+    font-size: 16px;
+    font-family: Comfortaa-light;
+}
+
+.product-main-info .product-main-info-text p b{
+    font-family: Comfortaa-bold;
+}
+
+.product-main-info .product-pricing{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.product-main-info .product-pricing .top-transparent-border{
+    width: 98%;
+    height: 2px;
+    background-color: var(--blue);
+    opacity: 0.2;
+}
+
+.product-main-info .product-pricing .product-pricing-button{
+    width: 48%;
+    height: 45px;
+    border-radius: 96px;
+    border: 0;
+    background-color: var(--yellow);
+    color: var(--blue);
+    font-size: 18px;
+    font-family: Comfortaa-medium;
+}
+
+.product-main-info .product-pricing h2{
+    color: var(--blue);
+    font-size: 40px;
+    font-family: Comfortaa-bold;
+}
+
+
+.return-rule{
+    color: var(--blue);
+    font-size: 20px;
+    font-family: Comfortaa-bold;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 50px;
+}
+
+.return-rule p{
+    padding: 0 15px 5px 15px;
+    border-bottom: 2px solid var(--yellow);
+}
+
+
+.shipping-info-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.shipping-info-container .shipping-info-card{
+    width: 31.5%;
+    height: 250px;
+    background-color: var(--lightBlue);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    padding: 2%;
+    box-sizing: border-box;
+}
+
+.shipping-info-container .shipping-info-card h3{
+    color: var(--blue);
+    font-size: 30px;
+    font-family: Comfortaa-bold;
+}
+
+.shipping-info-container .shipping-info-card p{
+    color: var(--blue);
+    font-size: 20px;
+    font-family: Comfortaa-regular;
+    text-align: center;
+    line-height: 25px;
+    max-width: 65%;
+}
+
+
+/* ---------------------------------------------------------------- */
+
+.product-extended-info-table{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 100px;
+}
+
+.product-extended-info-table .extended-info-description-container{
+    width: 50%;
+}
+
+.product-extended-info-table .extended-info-description-container .table-header{
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+    padding: 20px 20px 20px 0;
+    box-sizing: border-box;
+}
+
+.product-extended-info-table .extended-info-description-container h4{
+    
+    color: var(--blue);
+    font-size: 24px;
+    font-family: Comfortaa-bold;
+}
+
+.product-extended-info-table .extended-info-description-container .text-container{
+    color: var(--blue);
+    font-size: 16px;
+    font-family: Comfortaa-light;
+    padding: 50px 40px 50px 0px;
+    line-height: 20px;
+}
+
+
+
+.product-extended-info-table .extended-info-characteristics-container{
+    width: 50%;
+    border-left: 1px solid lightgray;
+}
+
+.product-extended-info-table .extended-info-characteristics-container .table-header{
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+    padding: 20px 0 20px 20px;
+    box-sizing: border-box;
+}
+
+.product-extended-info-table .extended-info-characteristics-container h4{
+    color: var(--blue);
+    font-size: 24px;
+    font-family: Comfortaa-bold;
+}
+
+
+.characteristics-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.characteristics-container .characteristic{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: var(--blue);
+    padding: 15px 0 15px 20px;
+    box-sizing: border-box;
+    border-bottom: 1px solid lightgrey;
+}
+
+.characteristics-container :last-child{
+    border-bottom: 0;
+}
+
+.characteristics-container .characteristic .key{
+    font-size: 20px;
+    font-family: Comfortaa-bold;
+}
+
+.characteristics-container .characteristic .value{
+    font-size: 20px;
+    font-family: Comfortaa-light;
+}

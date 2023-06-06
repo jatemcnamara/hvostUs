@@ -1,0 +1,71 @@
+.shop-page-form-container{
+    width: 100%;
+    background-color: var(--yellow);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 100px 0;
+    box-sizing: border-box;
+}
+
+.shop-page-form-container h2{
+    max-width: 57%;
+    font-size: 28px;
+    font-family: Comfortaa-light;
+    color: var(--blue);
+    text-align: center;
+    line-height: 35px;
+}
+
+.shop-page-form-container form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+    width: 100%;
+}
+
+.shop-page-form-container form input.form-type{
+    display: none;
+}
+
+.shop-page-form-container form input{
+    width: 40%;
+    height: 65px;
+    border-radius: 81px;
+    border: 0;
+    opacity: 0.7;
+    padding: 0 30px;
+    box-sizing: border-box;
+    color: var(--blue);
+    font-size: 16px;
+    font-family: Comfortaa-regular;
+    outline: none;
+}
+
+.shop-page-form-container form textarea{
+    width: 40%;
+    height: 175px;
+    border-radius: 32px;
+    border: 0;
+    opacity: 0.7;
+    padding: 30px 30px;
+    box-sizing: border-box;
+    outline: none;
+    font-size: 16px;
+    font-family: Comfortaa-regular;
+    color: var(--blue);
+}
+
+.shop-page-form-container form button{
+    width: 20%;
+    height: 45px;
+    border-radius: 81px;
+    border: 0;
+    color: white;
+    background-color: var(--blue);
+    font-size: 18px;
+    font-family: Comfortaa-regular;
+    cursor: pointer;
+}

@@ -1,0 +1,71 @@
+.main-content .brands-container{
+    width: 17%;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.25);   
+    padding: 25px;
+}
+
+.main-content .brands-container p{
+    color: var(--blue);
+    font-size: 18px;
+    font-family: Comfortaa-bold;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.main-content p .full-list-opener{
+    cursor: pointer;
+}
+
+.main-content p .full-list-opener.active{
+    transform: rotate(180deg);
+}
+
+.main-content .brands-container ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.main-content .brands-container ul li{
+    color: var(--blue);
+    font-size: 16px;
+    font-family: Comfortaa-medium;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.main-content .brands-container ul li .brand-radio-button{
+    height: 15px;
+    width: 15px;
+    margin-top: -3px;
+    border: 1px solid var(--blue);
+    border-radius: 50%;
+}
+
+.main-content .brands-container ul .short-brand-list-item{
+    display: flex;
+}
+
+.main-content .brands-container ul .short-brand-list-item.active{
+    display: none;
+}
+
+.main-content .brands-container ul .full-brand-list-item{
+    display: flex;
+}
+
+.main-content .brands-container ul .full-brand-list-item.active{
+    display: none;
+}

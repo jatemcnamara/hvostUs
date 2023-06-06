@@ -1,0 +1,26 @@
+.pages-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 20px;
+    margin-bottom: 80px;
+}
+
+.pages-container .page-number{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 1px solid var(--blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--blue);
+    cursor: pointer;
+}
+
+.pages-container p{
+    color: var(--blue);
+    font-size: 20px;
+    font-family: Comfortaa-regular;
+}
